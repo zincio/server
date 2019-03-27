@@ -14,7 +14,7 @@ namespace Bit.Core.Services
         {
             if(!environment.IsDevelopment() && globalSettings.SelfHosted)
             {
-                throw new Exception($"{nameof(NoopLicensingService)} cannot be used for self hosted instances.");
+                //throw new Exception($"{nameof(NoopLicensingService)} cannot be used for self hosted instances.");
             }
         }
 
